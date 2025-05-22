@@ -1,0 +1,14 @@
+<div class="overlay"></div>
+<div class="container">
+  <div class="register-box">
+    <h1>Register</h1>
+
+    <input type="text" placeholder="Username" [(ngModel)]="user.username">
+    <input type="email" placeholder="Email" [(ngModel)]="user.email">
+    <input type="password" placeholder="Password" [(ngModel)]="user.password">
+    <input type="password" placeholder="Confirm Password" [(ngModel)]="user.confirmPassword">
+
+    <button (click)="signUp()">Sign Up</button>
+    <button (click)="goToLogin()">Back to Login</button>
+  </div>
+</div>

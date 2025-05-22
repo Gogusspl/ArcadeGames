@@ -1,0 +1,12 @@
+<div class="overlay"></div>
+<div class="container">
+  <div class="login-box">
+    <h1>Arcadia Casino</h1>
+    <input type="text" placeholder="username" [(ngModel)]="credentials.username">
+    <input type="password" placeholder="Password" [(ngModel)]="credentials.password">
+    
+    <button (click)="signIn()">Sign In</button>
+    <br><br>
+    <button (click)="goToRegister()">Sign Up</button>
+  </div>
+</div>
