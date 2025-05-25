@@ -1,4 +1,4 @@
-package com.example;
+package com.example.security;
 
 import io.jsonwebtoken.*;
 import org.springframework.stereotype.Component;

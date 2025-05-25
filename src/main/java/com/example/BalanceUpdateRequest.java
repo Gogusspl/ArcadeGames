@@ -1,2 +1,15 @@
-package com.example;public class BalanceUpdateRequest {
+package com.example;
+
+import java.math.BigDecimal;
+
+public class BalanceUpdateRequest {
+    private BigDecimal amount;
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
 }
