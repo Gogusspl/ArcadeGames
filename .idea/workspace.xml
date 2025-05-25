@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec0a1f75-72da-47f6-97a3-beccac156942" name="Changes" comment="backend H1 test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/security/JwtFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AuthServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JwtUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/security/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/security/JwtUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AuthServiceTest.executor": "Run",
+    "JUnit.JwtFilterTest.doFilterInternal_shouldAuthenticateUser_whenTokenIsValidAndUserExists.executor": "Run",
+    "JUnit.JwtFilterTest.executor": "Run",
+    "JUnit.JwtUtilTest.shouldGenerateAndValidateToken.executor": "Run",
     "Maven.BackEndFindYourPet [clean,install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -68,7 +76,45 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AuthServiceTest">
+    <configuration name="AuthServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BackEndFindYourPet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BackEndFindYourPet" />
+      <option name="PACKAGE_NAME" value="com.example.security" />
+      <option name="MAIN_CLASS_NAME" value="com.example.security.JwtFilterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtFilterTest.doFilterInternal_shouldAuthenticateUser_whenTokenIsValidAndUserExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BackEndFindYourPet" />
+      <option name="PACKAGE_NAME" value="com.example.security" />
+      <option name="MAIN_CLASS_NAME" value="com.example.security.JwtFilterTest" />
+      <option name="METHOD_NAME" value="doFilterInternal_shouldAuthenticateUser_whenTokenIsValidAndUserExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtUtilTest.shouldGenerateAndValidateToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BackEndFindYourPet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JwtUtilTest" />
+      <option name="METHOD_NAME" value="shouldGenerateAndValidateToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="BackEndFindYourPet" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.BackendApplication" />
@@ -84,6 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthServiceTest" />
+        <item itemvalue="JUnit.JwtFilterTest" />
+        <item itemvalue="JUnit.JwtFilterTest.doFilterInternal_shouldAuthenticateUser_whenTokenIsValidAndUserExists" />
+        <item itemvalue="JUnit.JwtUtilTest.shouldGenerateAndValidateToken" />
         <item itemvalue="Spring Boot.BackendApplication" />
       </list>
     </recent_temporary>
@@ -121,7 +171,7 @@
       <workItem from="1747922286836" duration="3003000" />
       <workItem from="1747932242389" duration="681000" />
       <workItem from="1747993788293" duration="3231000" />
-      <workItem from="1748187439035" duration="1398000" />
+      <workItem from="1748187439035" duration="3353000" />
     </task>
     <task id="LOCAL-00001" summary="backend H1 test">
       <option name="closed" value="true" />
@@ -131,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748188551059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="backend H1 test">
+      <option name="closed" value="true" />
+      <created>1748188973772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748188973772</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,25 +217,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/AuthService.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/AuthService.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/AuthService.java</url>
-          <line>30</line>
-          <properties class="com.example.AuthService" method="login">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
