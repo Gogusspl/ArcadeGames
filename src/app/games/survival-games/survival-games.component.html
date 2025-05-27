@@ -1,0 +1,41 @@
+<div
+  class="game-container"
+  style="background-image: url('assets/arcade2.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+>
+  <header class="top-bar">
+    <div class="balance">Saldo: {{ points }} pkt</div>
+  </header>
+
+  <div class="game-screen">
+    <canvas #gameCanvas width="600" height="600"></canvas>
+  </div>
+
+  <div class="bet-section">
+      <div class="choose-color-label">Wybierz kolor</div>
+
+    <div class="bet-options">
+
+      <div *ngFor="let ball of balls" class="bet-box">
+        <div
+          class="ball"
+          [ngStyle]="{ 'background-color': ball.color }"
+          [class.selected]="selectedBall === ball.id"
+          (click)="selectBall(ball.id)">
+        </div>
+        <input
+          type="number"
+          placeholder="Postaw"
+          min="1"
+          [(ngModel)]="ball.betAmount"
+          [disabled]="selectedBall !== ball.id" />
+      </div>
+    </div>
+
+    <button
+      class="start-btn"
+      (click)="startGame()"
+      [disabled]="!canStartGame()">
+      Start
+    </button>
+  </div>
+</div>

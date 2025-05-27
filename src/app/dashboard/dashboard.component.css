@@ -1,0 +1,135 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1e0025, #120017);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #2c003e, #4a007e);
+  border-bottom: 4px solid #ff00ff;
+  color: white;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #c77dff;
+  text-shadow: 0 0 8px #ff00ff;
+}
+
+.balance-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.balance {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.games-title {
+  margin: 30px 40px 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffb3ff;
+  border-left: 4px solid #ff00ff;
+  padding-left: 10px;
+}
+
+.balance-tools {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  object-position: center; /* centrowanie obrazka */
+}
+.amount-input {
+  width: 100px;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  padding: 6px 12px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+.game-card {
+  border: 2px solid #ff00ff;
+  background-color: #2d2d44;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+}
+
+.game-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffb3ff;
+}
+
+.play-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #9b00e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #c300ff;
+}
