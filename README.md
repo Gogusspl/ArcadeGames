@@ -53,6 +53,7 @@ Poniżej ekranu gry znajdują się opcje obstawiania. Użytkownik wybiera jeden 
 Po rozpoczęciu gry, na ekranie pojawiają się kolorowe kulki, które zaczynają się poruszać i odbijać od ścian oraz od siebie nawzajem. Każde odbicie kulki od ściany powoduje, że kulka zwiększa swój rozmiar. Dodatkowo, na mapie co pewien czas losowo pojawiają się gwiazdki (specjalne power-upy). Jeżeli kulka na nie natrafi, zostaje ona ulepszona do postaci "gwiezdnej kulki", która zyskuje moc eliminowania innych kulek poprzez kontakt.
 W danym momencie tylko jedna kulka może być gwiezdna, co wprowadza element strategii i losowości do rozgrywki. Gra trwa aż do momentu, gdy na planszy pozostanie tylko jedna kulka – jeśli jest to kulka, na którą użytkownik postawił swoje środki, gra zostaje wygrana, a użytkownik otrzymuje punkty.
 W przypadku przegranej, obstawione środki zostają odjęte od konta gracza.
+
 ![Zrzut ekranu 2025-05-27 100706](https://github.com/user-attachments/assets/28702256-8a52-4cae-a489-f4662fb7a844)
 
 📈 Plany Rozwoju 
