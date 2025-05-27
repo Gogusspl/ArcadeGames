@@ -66,4 +66,3 @@ Wprowadzenie systemu rankingowego
 
 Rozbudowanie panelu użytkownika
 
-System nagród, osiągnięć i turniejów
