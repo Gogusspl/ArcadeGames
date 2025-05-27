@@ -22,23 +22,24 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  signIn() {
-    this.authService.login(this.credentials).subscribe({
-      next: (response: any) => {
-        console.log('Login successful', response);
+ signIn() {
+  this.authService.login(this.credentials).subscribe({
+    next: (response: any) => {
+      console.log('Login successful', response);
 
-        localStorage.setItem('username', this.credentials.username);
-        localStorage.setItem('auth_token', response.token);
-       
-        this.router.navigate(['/dashboard']);
-      },
-      error: (error) => {
-        console.error('Login error', error);
-        alert('Nieprawidłowy login lub hasło!');
-      }
-    });
-  }
+      localStorage.setItem('username', this.credentials.username);
 
+      const token = response.replace('Bearer ', '');
+      localStorage.setItem('auth_token', token);
+
+      this.router.navigate(['/dashboard']);
+    },
+    error: (error) => {
+      console.error('Login error', error);
+      alert('Nieprawidłowy login lub hasło!');
+    }
+  });
+}
   goToRegister() {
     this.router.navigate(['/register']);
   }

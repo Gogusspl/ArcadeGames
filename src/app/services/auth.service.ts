@@ -14,9 +14,9 @@ export class AuthService {
     return this.http.post(`${this.baseUrl}/register`, user);
   }
 
-  login(credentials: any): Observable<any> {
-    return this.http.post(`${this.baseUrl}/login`, credentials);
-  }
+ login(credentials: any): Observable<string> {
+  return this.http.post(`${this.baseUrl}/login`, credentials, { responseType: 'text' });
+}
 
   getBalance(username: string): Observable<number> {
     return this.http.get<number>(`${this.baseUrl}/${username}/balance`);
