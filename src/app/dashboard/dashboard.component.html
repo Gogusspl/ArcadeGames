@@ -1,0 +1,32 @@
+<body>
+<div class="dashboard-header">
+  <div class="logo">Arcadia Casino</div>
+
+  <div class="header-right">
+    <div class="balance-tools">
+      <input
+        type="number"
+        [(ngModel)]="amountToAdd"
+        placeholder="Kwota"
+        class="amount-input"
+      />
+      <button (click)="addToBalance()" class="add-button">+</button>
+    </div>
+    <div class="balance">Saldo: {{ balance }}</div>
+  </div>
+</div>
+
+<div class="top-banner">
+  <img src="assets/top-banner.png" alt="Baner" />
+</div>
+
+<h2 class="games-title">Games:</h2>
+
+<div class="games-container">
+  <div class="game-card">
+    <img src="assets/PixelSurvival.png" alt="Survival Game" class="game-image" />
+    <div class="game-name">Pixel Survival</div>
+    <button class="play-button" [routerLink]="['/survival-games']">Zagraj</button>
+  </div>
+</div>
+</body>

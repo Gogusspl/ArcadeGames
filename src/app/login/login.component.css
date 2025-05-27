@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Reset i bazowe ustawienia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-image 1s ease-in-out, filter 1s ease-in-out;
+}
+
+/* Efekt przyciemnienia */
+body.fade-out {
+  filter: brightness(50%);
+  transition: filter 1s ease-in-out;
+}
+
+/* Przyciemniona nakładka */
+.overlay {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Kontener na cały ekran */
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+/* Pudełko logowania */
+.login-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 300px;
+  z-index: 3;
+}
+
+/* Nagłówek logowania */
+.login-box h1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+/* Inputy */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Przycisk */
+.login-box button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover na przycisk */
+.login-box button:hover {
+  background-color: black;
+  color: white;
+}
