@@ -55,7 +55,8 @@ W danym momencie tylko jedna kulka może być gwiezdna, co wprowadza element str
 W przypadku przegranej, obstawione środki zostają odjęte od konta gracza.
 ![Zrzut ekranu 2025-05-27 100706](https://github.com/user-attachments/assets/28702256-8a52-4cae-a489-f4662fb7a844)
 
-Plany Rozwoju
+📈 Plany Rozwoju 
+
 W kolejnych etapach planowane jest:
 
 Dodanie większej liczby gier
