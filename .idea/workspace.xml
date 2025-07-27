@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec0a1f75-72da-47f6-97a3-beccac156942" name="Changes" comment="backend H1 test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -176,7 +177,9 @@
       <workItem from="1747993788293" duration="3231000" />
       <workItem from="1748187439035" duration="3666000" />
       <workItem from="1748332264583" duration="641000" />
-      <workItem from="1748362365431" duration="898000" />
+      <workItem from="1748362365431" duration="1291000" />
+      <workItem from="1748363675792" duration="135000" />
+      <workItem from="1748372272491" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="backend H1 test">
       <option name="closed" value="true" />
